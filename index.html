@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alışveriş Sepeti</title>
 </head>
 <body>
-    
+<div id="product">
+
+    <div>
+<span> Elma 5 TL</span>
+<button onclick="addToCart('Elma',7)"></button>
+    </div>
+    <div>
+     <span> Karpuz 7 TL</span>
+    <button onclick="addToCart('Elma',7)"></button>
+    </div>
+     <div>
+    <span> Portakal 10 TL</span>
+    <button onclick="addToCart('Elma',7)"></button>
+     </div>
+</div>
+
+    <h2>Sepet</h2>
+    <div id="cart"></div>
 
     <script src="app.js"> </script>
 </body>
